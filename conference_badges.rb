@@ -8,9 +8,6 @@ def batch_badge_creator(attendees)
    attendees.each { |name| array << badge_maker(name) }
    array
 end
-end
-
-end
 
 def assign_rooms
   
